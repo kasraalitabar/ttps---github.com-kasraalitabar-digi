@@ -1,0 +1,9 @@
+.search{
+    border: solid rgba(240, 240, 241, 1);
+    background-color: rgba(240, 240, 241, 1);
+    border-radius: 10px;
+    margin-left: 45%;
+    margin-right: auto;
+    width: 40%;
+    height: 45px;
+}
