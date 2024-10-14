@@ -22,3 +22,25 @@ body{
     top: 13px;
     
 }
+.rej{
+    border:solid 1px rgb(184, 184, 184);
+    border-radius: 10px;
+    padding: 8px 18px;
+    width: max-content;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+.vl{
+    height: 50px;
+    border-left: 1px solid rgb(184, 184, 184);
+    position: absolute;
+    left: 65px;
+    top: 5px;
+}
+.basket{
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 40px;
+}
