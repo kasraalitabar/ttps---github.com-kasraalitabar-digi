@@ -68,3 +68,11 @@ body{
     height: 84px;
     width: 25px;
 }
+.circul{
+    display: flex;
+    justify-content: space-between;
+}
+.circul:nth-child(1){
+  background:   linear-gradient(315deg, #e03d96, #7d4c9e);
+    width: 100px;
+}
