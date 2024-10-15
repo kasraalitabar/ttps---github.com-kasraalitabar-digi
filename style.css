@@ -44,7 +44,3 @@ body{
     top: 5px;
     width: 40px;
 }
-.items{
-    display: flex;
-    justify-content: space-between;
-}

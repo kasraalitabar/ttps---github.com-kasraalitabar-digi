@@ -5,27 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>digikala</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
-      <style type="text/tailwindcss">
-        @layer utilities {
-          .content-auto {
-            content-visibility: auto;
-          }
-        }
-      </style>
-       <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="stylesheet" href="src/input.css">
        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+       <link href="./output.css" rel="stylesheet">
 </head>
 <body>
     <div class="nav">
@@ -35,7 +17,7 @@
         <div class="vl"></div>
         <img class="basket" src="./images/shopping-basket-add-svgrepo-com (1).svg" alt="">
     </div>
-    <div class="items">
+    <div class="items flex justify-between">
         <div class="itemin">دسته بندی کالاها</div>
         <div class="itemin">شگفت انگیز ها</div>
         <div class="itemin">سوپرمارکت</div>
@@ -46,5 +28,6 @@
         <div class="itemin">در دیجی کالا بفروشید</div>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </body>
 </html>
